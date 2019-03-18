@@ -6,7 +6,7 @@ img{
   width: 150px;
 }
 
-.contenitore{
+#container{
   width: 650px;
   margin: auto;
 }
@@ -14,4 +14,42 @@ img{
 header > span{
   font-size: 30px;
   color: white;
+}
+
+main > button{
+  border-radius: 5px;
+}
+
+.notify{
+  padding: 5px 0;
+  color: white;
+  font-size: 30px;
+}
+
+.notify > span{
+  background-color: orange;
+  border-radius: 50px;
+}
+
+.email_container > .email{
+  padding: 1px 0;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.email{
+  font-weight: bold;
+}
+
+.email > span{
+  font-weight: lighter;
+  color: grey;
+}
+
+.email.unread{
+  background-color:#9bbef7 ;
+}
+
+.email.read{
+  background-color: white;
 }
