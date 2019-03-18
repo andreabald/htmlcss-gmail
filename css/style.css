@@ -1,0 +1,17 @@
+body{
+  background-image: url("../img/bg2_1920x1200.jpg");
+}
+
+img{
+  width: 150px;
+}
+
+.contenitore{
+  width: 650px;
+  margin: auto;
+}
+
+header > span{
+  font-size: 30px;
+  color: white;
+}
