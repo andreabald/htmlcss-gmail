@@ -35,13 +35,10 @@ main > button{
   padding: 1px 0;
   font-size: 20px;
   border: 1px solid black;
-}
-
-.email{
   font-weight: bold;
 }
 
-.email > span{
+.email > .email_text{
   font-weight: lighter;
   color: grey;
 }
@@ -52,4 +49,16 @@ main > button{
 
 .email.read{
   background-color: white;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer > span{
+  font-size: 20px;
+  font-style: italic;
 }
